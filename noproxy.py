@@ -222,7 +222,7 @@ async def main():
         await asyncio.sleep(10)
 
 if __name__ == '__main__':
-    show_warning()
+    # show_warning()
     print("\nBaiklah, kita di sini! Masukkan token nodepay Anda yang Anda dapatkan dari tutorial.")
     try:
         asyncio.run(main())
